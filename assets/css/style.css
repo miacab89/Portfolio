@@ -1,137 +1,114 @@
-body { background-color: black;
-       background-image: url(../img/5-dots.png); 
-       font-family:  Cochin;
-       margin: 0px;
-       padding: 0px;
-
-    }
-h1   { color: white;
-       background-color: #6a8691;
-       margin: 0 auto;
-       text-align: center;
-       padding-top: 20px;
-       padding-bottom: 20px;
-       width: 200px;
+body,
+html {  background-color: black;
+        background-image: url(../img/5-dots.png); 
+        font-family:  Cochin;
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        grid: auto; 
+ 
      }
 
-h2   { color: #6a8691;
-       width: 960px;
-       font-family: Cochin; 
-      }
-h3   { color: #6a8691;
-      text-weight: 300px;
-      font-family: Cochin;
-      }
-
-p1   {  color: #6a8691;
-      text-weight: 300px;
+h1   { color: white;
+        background-color: #333333;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        
       }
 
-p2   { color: #6a8691;
-       
-      }
 
-p3   { color: #6a8691; 
-       
-      }
-
-label { color: black
-      }
-.mialive {width: 300px; 
-          height: 300px;
-
+h2    { color: white;
+        background-color: #333333;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
         }
-.ironcloud {
-            width: 300px;
-            height: 300px;
-            
-        }
-.philosophy {width: 300px;
-             height: 300px;
-             
-        }
-.bio   {width: 300px;
-        height: 300px;
-       }
 
 
-header {
-    background-color: white;
-    text-align: right;
-    padding: 0px;
+nav { 
+      padding: 0px;
+      width: 100%;
     }
-
-header .header-brand {
-    font-family: Cochin;
-    font-size: 24px;
-    font-weight: 900;
-    color: #F1F1F1;
-    text-transform: uppercase;
-    display: block;
-}
-
-.home {font: #777777;
-       font-family: Cochin;
-}
-    
-/*
-.wrapper{
-    display:grid;
-    grid-template-columns: 60% 40%;
-    margin: 0 auto;
-}
-.wrapper > div{
-    padding: 0px;
-}
-.wrapper > div:nth-child(odd){
-    background-image: url(../img/greek-vase.png);
-    
-}
-
-*/
-
-.container { background: white;
-            border: 5px solid #eeeeee;
-            font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
-            header: #cccccc; 
-            color: #777777;
-            width: 960px;
-            margin: 0 auto; 
-            padding: 0px;
-            
-            /*
-            float: right;
-            */
-}
-
-a { text-decoration: none;}
-
-.txtb { height: 30px;
-        padding: 5px;}
-
-.contactform { width: 85%;
-    background: #eeee; 
-    position: relative;
-    padding: 40px, 0px;
-    text-align: center;
-    font-family: Cochin;
-}
-
-.contact-form h1{
-    margin-top: 0;
-    font-weight: 200;
-}
-
-.txtb {
-    
-    margin: 8px 0;
-    padding: 12 px 18px;
-    border-radius: 8px;
-}
-
-button { background: #777777;
-         color: white;
+ 
+ label { color: white;
+         padding: 30px;
+         text-align: center;
+         margin: auto;
+       }
+ 
+ header {
+     background-color: white;
+     text-align: right;
+     padding: 0px;
+     }
+ 
+ header .header-brand {
+     font-family: Cochin;
+     font-size: 24px;
+     font-weight: 900;
+     color: #F1F1F1;
+     text-transform: uppercase;
+     display: block;
  }
+ 
 
-textarea {height: 50px;
-  width: 100px; }
+ .container { 
+            
+        font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
+        header: #cccccc; 
+        color: whitesmoke;
+        width: 960px;
+        margin: 10 auto; 
+        padding: 0px;
+        clear: fixed; 
+             
+             
+            
+ }
+ 
+ 
+ .contactform { 
+     background: rgba(255, 206, 206, 0.933); 
+     position: absolute;
+     padding: 30px, 0px;
+     text-align: center;
+     font-family: Cochin;
+
+ }
+ 
+.btn { background: #777777;
+          color: white;
+        }
+
+.textarea { padding: 0px;
+          }
+
+ input { padding: 40px;
+ }
+ 
+ .clearfix:after {
+     content: " "; 
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+  }
+ 
+ 
+ .footer {background:#333333; 
+         padding: 20px; 
+         margin-top: auto;
+         width: 100%;
+        
+        }
+
+ .wrapper { padding: 10px;
+            height: auto; 
+           
+        }
