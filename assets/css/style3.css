@@ -1,6 +1,9 @@
 body,
-html {  background-color: black;
-        background-image: url(../img/5-dots.png); 
+html {  
+        background-image: url('https://www.wildtextures.com/wp-content/uploads/2011/10/wildtextures-broken-glass-I-original-file.jpg');
+        background-size: 100%;
+        color: white;
+        opacity: 1;
         font-family:  Cochin;
         margin: 0px;
         padding: 0px;
@@ -12,11 +15,12 @@ html {  background-color: black;
      }
 
 h1   { color: white;
-        background-color: #333333;
         margin: 0 auto;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
+        border: #777777;
+        border-radius: 5px; 
         
         
       }
@@ -29,18 +33,26 @@ h2    { color: white;
         padding-bottom: 10px;
         
         }
+h3   { color: white;
 
+}
 
 nav { 
-      padding: 0px;
+      padding-bottom: 30px;
       width: 100%;
+      border-radius: 10px;
     }
+
+.nav-link {
+    color: white;
+}
  
- label { color: white;
-         padding: 30px;
-         text-align: center;
-         margin: auto;
-       }
+label { color: white;
+        font-size: 23px;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+    }
  
  header {
      background-color: white;
@@ -59,37 +71,54 @@ nav {
  
 
  .container { 
-            
-        font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
-        header: #cccccc; 
-        color: whitesmoke;
-        width: 960px;
-        margin: 10 auto; 
-        padding: 0px;
+        font-family: Cochin; 
+        padding: 10px;
+        height: 10vh auto;
+        width: 10vh auto;
+        background: #333333; 
         clear: fixed; 
-             
-             
-            
- }
+        display: block; 
+        border: 5px solid #777777;
+        border-radius: 15px;
+        margin-top: 6px;
+        margin-bottom: 16px; 
+        padding: 12px;
+        resize: vertical; 
+        box-sizing: border-box;
+        position: relative;
+    }
  
  
- .contactform { 
-     background: rgba(255, 206, 206, 0.933); 
-     position: absolute;
-     padding: 30px, 0px;
-     text-align: center;
-     font-family: Cochin;
+.btn { 
+    background: #777777;
+    color: white;
+    }
 
- }
- 
-.btn { background: #777777;
-          color: white;
-        }
+.textarea { 
+    padding: 0px;
+    text-align: left;
+    border: 3px solid #777777; 
+    border-radius: 3px; 
+    height: 6vh; 
+    }
 
-.textarea { padding: 0px;
-          }
+.messagearea {padding: 0px;
+    text-align: left;
+    border: 3px solid #777777; 
+    border-radius: 3px; 
+    height: 10vh; 
+    width: 40%;
+    }
 
- input { padding: 40px;
+ .input { padding: 0px;
+    text-align: left;
+    border: 3px solid #777777; 
+    border-radius: 3px; 
+    height: 6vh; 
+    width: 40%;
+    content: right;
+    align-content: right;
+    position: absolute;
  }
  
  .clearfix:after {
@@ -102,13 +131,28 @@ nav {
  
  
  .footer {background:#333333; 
-         padding: 20px; 
-         margin-top: auto;
-         width: 100%;
+         padding: 0px; 
+         
         
         }
 
- .wrapper { padding: 10px;
-            height: auto; 
-           
+.contactme { padding: 10px;
+            height: 10vh auto;
+            width: 10vh auto;
+            background: #333333; 
+            clear: fixed; 
+            display: block; 
+            border: 5px solid #777777;
+            border-radius: 15px;
+            margin-top: 6px;
+            margin-bottom: 16px; 
+            padding: 12px;
+            resize: vertical; 
+            box-sizing: border-box;
+            position: relative;
+            
         }
+
+.contactme { content: center;
+            align-content: center;
+}
