@@ -1,8 +1,9 @@
+
 body,
 html {  
-        background-image: url('https://www.wildtextures.com/wp-content/uploads/2011/10/wildtextures-broken-glass-I-original-file.jpg');
+        
         background-size: 100%;
-        color: white;
+        color: #555555;
         opacity: 1;
         font-family:  Cochin;
         margin: 0px;
@@ -11,10 +12,13 @@ html {
         display: flex;
         flex-direction: column;
         grid: auto; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
  
      }
 
-h1   { color: white;
+h1   { color: #555555:
         margin: 0 auto;
         text-align: center;
         padding-top: 10px;
@@ -27,15 +31,22 @@ h1   { color: white;
 
 
 h2    { color: white;
-        background-color: #333333;
         margin: 0 auto;
         padding-top: 10px;
         padding-bottom: 10px;
         
         }
-h3   { color: white;
-
+h3   { color: #555555; 
+       text-align: center;
+     
 }
+
+.center { text-align: center;
+} 
+
+.p { text-align: center;
+}
+
 
 nav { 
       padding-bottom: 30px;
@@ -75,10 +86,9 @@ label { color: white;
         padding: 10px;
         height: 10vh auto;
         width: 10vh auto;
-        background: #333333; 
         clear: fixed; 
         display: block; 
-        border: 5px solid #777777;
+        border: 5px solid magneta;
         border-radius: 15px;
         margin-top: 6px;
         margin-bottom: 16px; 
@@ -106,7 +116,7 @@ label { color: white;
     text-align: left;
     border: 3px solid #777777; 
     border-radius: 3px; 
-    height: 10vh; 
+    height: 20vh; 
     width: 40%;
     }
 
@@ -155,4 +165,51 @@ label { color: white;
 
 .contactme { content: center;
             align-content: center;
+}
+
+.defaultpic {
+    border-radius: 50%;
+    width: 10%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconaf { width: 10%;
+          height: 10%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+
+}
+
+.experience { width: 30%;
+            height: 30%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+}
+
+.giticon {  width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkedinicon { width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
