@@ -1,7 +1,7 @@
 
 body,
 html {  
-        
+        background: white;
         background-size: 100%;
         color: #555555;
         opacity: 1;
@@ -18,7 +18,7 @@ html {
  
      }
 
-h1   { color: #555555:
+h1   { color: #555555;
         margin: 0 auto;
         text-align: center;
         padding-top: 10px;
